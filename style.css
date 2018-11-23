@@ -2,9 +2,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono";
@@ -16,7 +13,48 @@ body {
   min-height: 100vh;
 }
 
-.light-shade {
-  background: #dee6f3;
+.light-grey {
+  background: #b2b9ed;
   color: #000;
+}
+
+.green-shade {
+  background: #b2edbd;
+  color: #000;
+}
+
+.img-responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.phone-image {
+  max-width: 240px;
+  max-height: auto;
+  overflow: hidden;
+  border: solid 5px #454545;
+  border-bottom: solid 25px #454545; 
+  border-top: solid 25px #454545; 
+  border-radius: 15px;
+}
+
+.flex-space-evenly {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-heading {
+  font-size: 3rem;
+}
+
+.general-heading {
+  padding: 32px;
+  font-size: 2.25rem;
+}
+
+.feature-list h3 {
+  padding: 16px;
+  font-size: 1.5rem;
 }
