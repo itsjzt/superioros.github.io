@@ -8,6 +8,10 @@
   font-weight: 400;
 }
 
+h1, h2, h3 {
+  padding: 12px;
+}
+
 .fullpage {
   width: 100%;
   min-height: 100vh;
@@ -46,6 +50,10 @@
 }
 
 .hero-heading {
+  max-width: 540px;
+}
+
+.hero-heading h2 {
   font-size: 3rem;
 }
 
