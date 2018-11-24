@@ -58,3 +58,33 @@
   padding: 16px;
   font-size: 1.5rem;
 }
+
+.devices-list {
+  list-style-type: square;
+}
+
+.conributers-list {
+  list-style-type: none;
+}
+
+.conributers-list li {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.download-btn {
+  font-size: 1.2rem;
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.height-30vh {
+  min-height: 30vh; 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
