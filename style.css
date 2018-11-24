@@ -87,6 +87,10 @@ h1, h2, h3 {
   padding: 0.5rem;
 }
 
+.download-link {
+  text-decoration: none;
+}
+
 .height-30vh {
   min-height: 30vh; 
 }
